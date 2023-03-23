@@ -1,0 +1,69 @@
+.proyectos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  h3 {
+    margin-bottom: 3rem;
+  }
+  ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    perspective: 2000px;
+    li {
+      padding: 0 3rem 2rem 3rem;
+      border-radius: 15px;
+      display: flex;
+      height: 400px;
+      width: 600px;
+      margin: 2rem 0;
+      position: relative;
+      .proy-info {
+        position: relative;
+        z-index: 2;
+        color: #fff;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        h4 {
+          padding-bottom: 1rem;
+          font-size: larger;
+        }
+        p{
+          font-size: 1.1rem ;
+        }
+        .enlaces {
+          padding-top: 1rem;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          a {
+            text-decoration: none;
+            color: #fff;
+            font-size: 1.1rem;
+            font-family: "Tilt Neon";
+            display: flex;
+            align-items: center;
+            svg {
+              margin-left: 3px;
+              margin-top: 3px;
+            }
+          }
+        }
+      }
+      &::after {
+        position: absolute;
+        content: "";
+        left: 0px;
+        top: 0px;
+        height: 100%;
+        width: 100%;
+        border-radius: 15px;
+        background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9));
+      }
+      &:hover::after{
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7));
+      }
+    }
+  }
+}

@@ -1,0 +1,23 @@
+@media screen and (max-width: 1200px){
+    .sobre-mi{
+        padding: 6rem 5rem 2rem 5rem;
+        .datos{
+            font-size: medium;
+            width: 50vw;
+            h1{
+                font-size: 3.8rem;
+            }
+            h2{
+                font-size: 2.2rem;
+            }
+        }
+    }
+    .contacto{
+        form{
+            padding: 3rem 17vw;
+            input, textarea{
+                width: 65vw;
+            }
+        }
+    }
+}

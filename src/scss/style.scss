@@ -1,0 +1,83 @@
+$blue: #1e477d;
+$dark-blue: #07336d;
+$light-blue: #446898;
+$lighter-blue: #98bae6;
+$light: #dadada;
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@400&family=Montserrat:wght@300&family=Tilt+Neon&display=swap');
+
+@mixin hovers (){
+    transform: scale(1.1);
+    color: #fff;
+    text-shadow: 0 0 5px rgba(0, 178, 255, 1),
+            0 0 10px rgba(0, 178, 255, 1), 0 0 15px rgba(0, 178, 255, 1),
+            0 0 20px rgba(38, 104, 127, 1), 0 0 25px rgba(38, 104, 127, 1),
+            0 0 30px rgba(38, 104, 127, 1);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat";
+}
+body{
+    background-color: $lighter-blue;
+    .titulo {
+        font-family: "Big Shoulders Display";
+        font-size: 3rem;
+        font-weight: 100;
+        text-transform: uppercase;
+        text-align: center;
+        border-bottom: 1px solid #000;
+        margin-bottom: 2rem;
+        padding: 0 1.5rem;
+      }
+    #button{
+        background-color: $dark-blue;
+        color: $light;
+        font-size: 1.1rem;
+        font-family: "Tilt Neon";
+        margin-top: 1.5rem;
+        padding: 7px;
+        border-radius: 30px;
+        transition: .3s;
+        &:hover {
+            @include hovers();
+          }
+    }
+}
+::-webkit-scrollbar {
+    width: 12px;
+  }
+  ::-webkit-scrollbar-track-piece {
+    border-radius: 2px;
+    background-color: $light-blue;
+    background-clip: content-box;
+    border-radius: 6px;
+    border: solid 4px transparent;
+  }
+  ::-webkit-scrollbar-track-piece:decrement {
+    background: $light;
+    background-clip: content-box;
+    border: solid 4px transparent;
+  }
+
+  ::-webkit-scrollbar-thumb  {
+    background-color: $blue;
+    border-radius: 6px;
+    box-shadow: 0 3px 6px -2px rgba(51,0,51,0.5);
+  }
+  ::-webkit-scrollbar-corner {
+    background: transparent ;
+  }
+
+@import "header.scss";
+@import "footer.scss";
+@import "sobreMi.scss";
+@import "proyectos.scss";
+@import "contacto.scss";
+@import "main.scss";
+@import "media-querie-xl.scss";
+@import "media-querie-lg.scss";
+@import "media-querie-md.scss";
+@import "media-querie-xs.scss";

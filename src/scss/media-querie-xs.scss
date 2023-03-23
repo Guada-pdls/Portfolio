@@ -1,0 +1,95 @@
+@media screen and (max-width: 576px) {
+  header {
+    display: flex;
+    justify-content: flex-end;
+    .nav {
+      display: flex;
+      list-style-type: none;
+    }
+    .nav li {
+      padding: 1.5rem 0.2rem;
+    }
+    .nav a {
+      color: $light;
+      position: relative;
+      text-decoration: none;
+    }
+    .nav {
+      display: flex;
+      justify-content: center;
+      position: absolute;
+      top: 3.5rem;
+      left: 0;
+      background: $dark-blue;
+      width: 100%;
+      transform: translateY(-150%);
+      opacity: 0;
+      transition: 0.3s ease all;
+      padding: 0.8rem 0;
+      ul {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+      }
+    }
+    .nav.open {
+      transform: translateY(0) !important;
+      opacity: 1;
+    }
+    .nav.open li {
+      padding: 0;
+    }
+    .hamburger {
+      display: flex;
+      flex-direction: column;
+      cursor: pointer;
+      margin: 15px;
+    }
+    .hamburger span {
+      width: 30px;
+      height: 2px;
+      background: $lighter-blue;
+      margin: 3px;
+      border-radius: 2px;
+      transform-origin: 5px 0px;
+      transition: all 0.2s linear;
+    }
+    .hamburger.open > span {
+      transform: rotate(45deg) translateY(1px) translateX(2.2px);
+    }
+    .hamburger.open > span:nth-child(2) {
+      opacity: 0;
+    }
+    .hamburger.open > span:nth-child(3) {
+      transform: rotate(-45deg) translatex(-1px);
+    }
+  }
+  .sobre-mi{
+    .datos{
+      width: 90vw;
+    }
+  }
+  .proyectos{
+    ul{
+      li{
+        height: 300px;
+        width: 90vw;
+        .proy-info{
+          h4{
+            padding-bottom: 0.8rem;
+            font-size: medium;
+          }
+          p{
+            font-size: 1rem;
+          }
+          .enlaces{
+            padding-top: .8rem;
+            a{
+              font-size: 1rem;
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,33 @@
+footer {
+  background-color: $dark-blue;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px 30px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  a {
+    color: $light;
+    font-family: "Tilt Neon";
+    text-decoration: none;
+    transition: 0.5s;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    &:hover {
+      @include hovers();
+    }
+  }
+  ul {
+    display: flex;
+    li {
+      list-style-type: none;
+      padding: 1.5rem 1.1rem 1rem 1.1rem;
+      a {
+        font-size: 2rem;
+        transition: 0.5s;
+        &:hover {
+          @include hovers();
+        }
+      }
+    }
+  }
+}
