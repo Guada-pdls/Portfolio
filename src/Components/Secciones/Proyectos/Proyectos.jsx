@@ -23,7 +23,7 @@ const Proyectos = () => {
         />
         <CardProy
           title="Cattitude | E-commerce"
-          description="E-commerce de productos para gatitos, desarrollado con React JS y Firestore. Tambiémn utilicé dependencias como react-icons, react-router-dom, toastify-js, entre otras."
+          description="E-commerce de productos para gatitos, desarrollado con React JS y Firestore. También utilicé dependencias como react-icons, react-router-dom, toastify-js, entre otras."
           img="../../images/Cattitude.png"
           deploy="https://cattitude.vercel.app"
           source="https://github.com/Guada-pdls/Proyecto-React"

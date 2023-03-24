@@ -6,13 +6,13 @@ const Footer = () => {
     <footer>
       <ul>
         <li>
-          <a href="http://www.linkedin.com/in/guadapdls"><AiOutlineLinkedin/></a>
+          <a href="https://www.linkedin.com/in/guadalupepiva/" target="_blank"><AiOutlineLinkedin/></a>
         </li>
         <li>
-          <a href=""><AiOutlineMail/></a>
+          <a href="mailto:guadapdls@gmail.com" target="_blank"><AiOutlineMail/></a>
         </li>
         <li>
-          <a href=""><AiOutlinePhone/></a>
+          <a href="https://wa.me/+59894334562" target="_blank"><AiOutlinePhone/></a>
         </li>
       </ul>
     </footer>

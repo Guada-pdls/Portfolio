@@ -270,7 +270,6 @@ footer ul li a:hover {
   perspective: 2000px;
 }
 .proyectos ul li {
-  padding: 0 3rem 2rem 3rem;
   border-radius: 15px;
   display: flex;
   height: 400px;
@@ -279,6 +278,7 @@ footer ul li a:hover {
   position: relative;
 }
 .proyectos ul li .proy-info {
+  padding: 0 3rem 2rem 3rem;
   position: relative;
   z-index: 2;
   color: #fff;

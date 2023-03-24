@@ -31,8 +31,7 @@ const SobreMi = () => {
         </div>
         <div className="presenta" data-aos="fade-left">
           <p>
-            <span>¡Hola</span> a todos! Mi nombre es Guadalupe Piva y soy
-            desarrolladora web Frontend en constante aprendizaje. Actualmente estoy en proceso de convertirme en Full Stack, con la meta de convertirme en ingeniera en sistemas en un futuro
+            <span>¡Hola</span> a todos! Mi nombre es Guadalupe Piva, soy una desarrolladora web Frontend en constante aprendizaje. Actualmente estoy en proceso de convertirme en Full Stack, con la meta de convertirme en ingeniera en sistemas en un futuro
             próximo.
           </p>
           <p>
