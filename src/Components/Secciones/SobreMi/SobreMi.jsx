@@ -14,7 +14,7 @@ import {
   SiTailwindcss,
   SiNodedotjs,
 } from "react-icons/si";
-import MaterialIcon from "../MaterialIcon";
+import MaterialIcon from "./MaterialIcon";
 
 
 const SobreMi = () => {
@@ -45,7 +45,7 @@ const SobreMi = () => {
         </div>
       </section>
       <div className="button-container" data-aos="zoom-in-up">
-        <a href="./files/CV.pdf" download="CV.pdf" className="button">
+        <a href="../CV - Guadalupe Piva.pdf" download="CV - Guadalupe Piva.pdf" className="button">
           <p>Descargar CV</p>
         </a>
       </div>
