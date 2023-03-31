@@ -71,13 +71,13 @@ body{
     background: transparent ;
   }
 
-@import "header.scss";
-@import "footer.scss";
-@import "sobreMi.scss";
-@import "proyectos.scss";
-@import "contacto.scss";
-@import "main.scss";
-@import "media-querie-xl.scss";
-@import "media-querie-lg.scss";
-@import "media-querie-md.scss";
-@import "media-querie-xs.scss";
+@import "./scss/header";
+@import "./scss/footer";
+@import "./scss/sobreMi";
+@import "./scss/proyectos";
+@import "./scss/contacto";
+@import "./scss/main";
+@import "./scss/media-querie-xl";
+@import "./scss/media-querie-lg";
+@import "./scss/media-querie-md";
+@import "./scss/media-querie-xs";

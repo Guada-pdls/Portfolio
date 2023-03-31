@@ -43,7 +43,7 @@ const SobreMi = () => {
           </p>
         </div>
       </section>
-      <div className="button-container" data-aos="zoom-in-up">
+      <div className="button-container">
         <a href="../CV - Guadalupe Piva.pdf" download="CV - Guadalupe Piva.pdf" className="button">
           <p>Descargar CV</p>
         </a>

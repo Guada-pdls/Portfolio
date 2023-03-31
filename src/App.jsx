@@ -4,7 +4,7 @@ import SobreMi from "./Components/Secciones/SobreMi/SobreMi"
 import Proyectos from "./Components/Secciones/Proyectos/Proyectos"
 import Contacto from "./Components/Secciones/Contacto"
 import Footer from "./Components/Footer/Footer"
-import "./index.css"
+import "./styles/style.css"
 import Aos from "aos";
 import "aos/dist/aos.css"
 

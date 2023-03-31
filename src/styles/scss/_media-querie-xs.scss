@@ -72,18 +72,19 @@
   .proyectos{
     ul{
       li{
-        height: 300px;
-        width: 90vw;
+        height: 270px;
+        width: 95vw;
         .proy-info{
+          padding: 0 2rem 1rem 2rem;
           h4{
-            padding-bottom: 0.8rem;
+            padding-bottom: 0.7rem;
             font-size: medium;
           }
           p{
             font-size: 1rem;
           }
           .enlaces{
-            padding-top: .8rem;
+            padding-top: .7rem;
             a{
               font-size: 1rem;
             }
