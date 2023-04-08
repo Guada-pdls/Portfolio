@@ -20,7 +20,7 @@
       position: absolute;
       top: 3.5rem;
       left: 0;
-      background: $dark-blue;
+      background: $blue;
       width: 100%;
       transform: translateY(-150%);
       opacity: 0;
@@ -64,31 +64,40 @@
       transform: rotate(-45deg) translatex(-1px);
     }
   }
-  .sobre-mi{
-    .datos{
-      width: 90vw;
+  .habilidades {
+    .skills {
+      ul {
+        gap: 1.2rem 2.8rem;
+      }
     }
   }
-  .proyectos{
-    ul{
-      li{
-        height: 270px;
-        width: 95vw;
-        .proy-info{
+  .proyectos {
+    ul {
+      li {
+        margin: 1rem 0;
+        height: 60vw;
+        width: 90vw;
+        .proy-info {
           padding: 0 2rem 1rem 2rem;
-          h4{
-            padding-bottom: 0.7rem;
-            font-size: medium;
+          h4 {
+            padding-bottom: 0.5rem;
+            font-size: 0.9rem;
           }
-          p{
-            font-size: 1rem;
+          p {
+            font-size: 0.85rem;
           }
-          .enlaces{
-            padding-top: .7rem;
-            a{
-              font-size: 1rem;
+          .enlaces {
+            padding-top: 0.5rem;
+            a {
+              font-size: 0.85rem;
             }
           }
+        }
+        .proy-info {
+          padding: 0 1.2rem 0.7rem 1.2rem;
+        }
+        &::after {
+          background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 1));
         }
       }
     }

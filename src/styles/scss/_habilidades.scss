@@ -1,0 +1,47 @@
+.habilidades {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0 0 8rem 0;
+  .skills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    ul {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      align-content: center;
+      gap: 1.4rem 3rem;
+      max-height: 14rem;
+      li {
+        list-style-type: none;
+        display: flex;
+        align-items: center;
+        font-size: 1.2rem;
+        svg {
+          margin-right: 5px;
+        }
+      }
+    }
+  }
+  .aprendiendo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    ul {
+      display: flex;
+      flex-direction: column;
+      align-content: center;
+      gap: 1.4rem 3rem;
+      li {
+        list-style-type: none;
+        font-size: 1.2rem;
+        display: flex;
+        align-items: center;
+        svg {
+          margin-right: 5px;
+        }
+      }
+    }
+  }
+}

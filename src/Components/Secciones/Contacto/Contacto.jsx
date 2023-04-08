@@ -8,7 +8,6 @@ const Contacto = () => {
   const submitHandler = e => {
     e.preventDefault()
 
-    // emailjs.init('CW2Xq3HKlSmTC5vJW')
    const serviceID = 'service_sskpjyu';
    const templateID = 'template_6bk379u';
 

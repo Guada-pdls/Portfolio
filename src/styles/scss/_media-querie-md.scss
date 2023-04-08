@@ -2,9 +2,21 @@
   .proyectos{
     ul{
         li{
-            height: 300px;
-            width: 420px;
+            height: 50vw;
+            width: 75vw;
         }
+    }
+  }
+  .sobre-mi{
+    .presenta{
+      p{
+        width: 75vw;
+      }
+    }
+  }
+  .contacto{
+    form{
+      width: 75vw;
     }
   }
 }

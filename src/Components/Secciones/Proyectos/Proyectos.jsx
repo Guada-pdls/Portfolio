@@ -3,7 +3,7 @@ import CardProy from "./CardProy";
 
 const Proyectos = () => {
   return (
-    <section className="proyectos" id="proyectos" data-aos="zoom-in-up">
+    <section className="proyectos" id="proyectos" data-aos="fade-up">
       <h3 className="titulo">Proyectos</h3>
       <ul>
         <CardProy
