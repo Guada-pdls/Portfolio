@@ -1,5 +1,4 @@
 import React from "react";
-import { motion } from "framer-motion";
 import emailjs from "@emailjs/browser"
 import Swal from 'sweetalert2'
 
@@ -55,7 +54,7 @@ const Contacto = () => {
           id="msg"
           required
         ></textarea>
-        <motion.input type="submit" id="button" value="Enviar" className="button" whileHover={{transform: "scale(1.01)"}}/>
+        <input type="submit" id="button" value="Enviar" className="button"/>
       </form>
     </section>
   );
