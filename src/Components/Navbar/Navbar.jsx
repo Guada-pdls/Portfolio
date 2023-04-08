@@ -7,10 +7,10 @@ const Navbar = () => {
         <nav className={`nav ${isOpen && "open"}`}>
           <ul>
             <li>
-              <a href="#sobre-mi">Sobre mí</a>
+              <a href="#proyectos">Proyectos</a>
             </li>
             <li>
-              <a href="#proyectos">Proyectos</a>
+              <a href="#sobre-mi">Sobre mí</a>
             </li>
             <li>
               <a href="#contacto">Contacto</a>
