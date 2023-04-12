@@ -8,7 +8,7 @@ import {
 const Presentacion = () => {
   return (
     <section className="presentacion">
-      <div className="datos" data-aos="fade-right">
+      <div className="datos" data-aos="fade-in">
         <h1>Guadalupe Piva</h1>
         <h2>Desarrolladora web</h2>
         <div className="ubi">

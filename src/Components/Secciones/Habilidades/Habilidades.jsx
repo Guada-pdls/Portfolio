@@ -18,7 +18,7 @@ import MaterialIcon from "../Habilidades/MaterialIcon";
 const Habilidades = () => {
   return (
     <section className="habilidades">
-        <div className="skills" data-aos="fade-right">
+        <div className="skills" data-aos="zoom-in-right">
           <h4 className="titulo">Skills</h4>
           <ul>
             <li>
@@ -63,7 +63,7 @@ const Habilidades = () => {
             </li>
           </ul>
         </div>
-        <div className="aprendiendo" data-aos="fade-left">
+        <div className="aprendiendo" data-aos="zoom-in-left">
           <h4 className="titulo">Capacitandome en</h4>
           <ul>
             <li>
