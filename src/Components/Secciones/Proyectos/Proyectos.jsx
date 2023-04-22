@@ -10,7 +10,7 @@ const Proyectos = () => {
         "E-commerce de productos para gatitos, desarrollado con React JS y Firestore. También utilicé dependencias como react-icons, react-router-dom, toastify-js, entre otras.",
       img: "../../images/Cattitude.png",
       deploy: "https://cattitude.vercel.app",
-      source: "https://github.com/Guada-pdls/Proyecto-React",
+      source: "https://github.com/Guada-pdls/Cattitude",
     },
     {
       id: 2,
@@ -23,6 +23,15 @@ const Proyectos = () => {
     },
     {
       id: 3,
+      title: "To Do | App",
+      description:
+        "App de tareas desarrollada con React JS y Tailwind CSS.",
+      img: "../../images/ToDoApp.png",
+      deploy: "https://todo-app-nine-self.vercel.app",
+      source: "https://github.com/Guada-pdls/ToDo-app",
+    },
+    {
+      id: 4,
       title: "Fake Store | E-commerce",
       description:
         "E-commerce realizado con la API FakeStore, utilizando HTML, CSS y JavaScript, además de librerías tales como EmailJS, SweetAlert, Swiper y Toastify. Su principal funcionalidad es el carrito y el modo oscuro.",
