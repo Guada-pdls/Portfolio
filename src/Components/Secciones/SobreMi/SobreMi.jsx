@@ -7,7 +7,7 @@ const SobreMi = () => {
       <h4 className="titulo">Sobre mí</h4>
         <div className="presenta">
           <p>
-            <span>Desarrolladora</span> web Frontend en constante aprendizaje. Actualmente en proceso de convertirme en Full Stack, con la meta de ser ingeniera en sistemas en un futuro próximo.
+            <span>Desarrolladora</span> web Frontend en proceso de convertirme en Full Stack, con la meta de ser ingeniera en sistemas en un futuro próximo. 
           </p>
           <p>
             <span>Disfruto</span> del trabajo en equipo, lo considero una

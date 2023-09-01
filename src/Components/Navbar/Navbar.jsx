@@ -1,9 +1,11 @@
 import React, { useState } from "react";
+import ChangeLanguageWidget from "../ChangeLanguageWidget/ChangeLanguageWidget";
 const Navbar = () => {
   let [isOpen, setIsOpen] = useState(false);
 
   return (
       <header>
+        <ChangeLanguageWidget/>
         <nav className={`nav ${isOpen && "open"}`}>
           <ul>
             <li>
