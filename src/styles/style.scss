@@ -1,16 +1,18 @@
-$blue: #1e477d;
-$dark-blue: #062c5df1;
-$light-blue: #446898;
-$lighter-blue: #98bae6;
+$dark-blue: #5025a7;
+$blue: #7544d6;
+$opacity-blue: #7544d67a;
+$form-background: #4025774c;
+$light-blue: #7544D6;
+$lighter-blue: rgb(14, 9, 40);
 $light: #dadada;
 @import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@400&family=Montserrat:wght@300;400&family=Tilt+Neon&display=swap");
 
 @mixin hovers() {
   transform: scale(1.1);
   color: #fff;
-  text-shadow: 0 0 5px rgba(0, 178, 255, 1), 0 0 10px rgba(0, 178, 255, 1),
-    0 0 15px rgba(0, 178, 255, 1), 0 0 20px rgba(38, 104, 127, 1),
-    0 0 25px rgba(38, 104, 127, 1), 0 0 30px rgba(38, 104, 127, 1);
+  text-shadow: 0 0 5px $light-blue, 0 0 10px $light-blue,
+    0 0 15px $light-blue, 0 0 20px $dark-blue,
+    0 0 25px $dark-blue, 0 0 30px $dark-blue;
 }
 
 * {
@@ -23,6 +25,7 @@ $light: #dadada;
 
 body {
   background-color: $lighter-blue;
+  color: $light;
 
   .title {
     font-family: "Big Shoulders Display";
@@ -30,7 +33,7 @@ body {
     font-weight: 100;
     text-transform: uppercase;
     text-align: center;
-    border-bottom: 1px solid #000;
+    border-bottom: 1px solid $light;
     margin-bottom: 2rem;
     padding: 0 1.5rem;
     width: fit-content;

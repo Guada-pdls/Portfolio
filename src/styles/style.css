@@ -8,7 +8,8 @@
 }
 
 body {
-  background-color: #98bae6;
+  background-color: rgb(14, 9, 40);
+  color: #dadada;
 }
 body .title {
   font-family: "Big Shoulders Display";
@@ -16,13 +17,13 @@ body .title {
   font-weight: 100;
   text-transform: uppercase;
   text-align: center;
-  border-bottom: 1px solid #000;
+  border-bottom: 1px solid #dadada;
   margin-bottom: 2rem;
   padding: 0 1.5rem;
   width: fit-content;
 }
 body .button {
-  background-color: rgba(6, 44, 93, 0.9450980392);
+  background-color: #5025a7;
   color: #dadada;
   font-size: 1.1rem;
   font-family: "Tilt Neon";
@@ -34,11 +35,11 @@ body .button {
 body .button:hover {
   transform: scale(1.1);
   color: #fff;
-  text-shadow: 0 0 5px rgb(0, 178, 255), 0 0 10px rgb(0, 178, 255), 0 0 15px rgb(0, 178, 255), 0 0 20px rgb(38, 104, 127), 0 0 25px rgb(38, 104, 127), 0 0 30px rgb(38, 104, 127);
+  text-shadow: 0 0 5px #7544D6, 0 0 10px #7544D6, 0 0 15px #7544D6, 0 0 20px #5025a7, 0 0 25px #5025a7, 0 0 30px #5025a7;
 }
 
 header {
-  background-color: rgba(6, 44, 93, 0.9450980392);
+  background-color: rgba(117, 68, 214, 0.4784313725);
   color: rgb(255, 228, 228);
   display: flex;
   justify-content: center;
@@ -73,7 +74,7 @@ header .nav ul li a {
 header .nav ul li:hover {
   transform: scale(1.1);
   color: #fff;
-  text-shadow: 0 0 5px rgb(0, 178, 255), 0 0 10px rgb(0, 178, 255), 0 0 15px rgb(0, 178, 255), 0 0 20px rgb(38, 104, 127), 0 0 25px rgb(38, 104, 127), 0 0 30px rgb(38, 104, 127);
+  text-shadow: 0 0 5px #7544D6, 0 0 10px #7544D6, 0 0 15px #7544D6, 0 0 20px #5025a7, 0 0 25px #5025a7, 0 0 30px #5025a7;
 }
 
 .hamburger {
@@ -81,7 +82,7 @@ header .nav ul li:hover {
 }
 
 footer {
-  background-color: rgba(6, 44, 93, 0.9450980392);
+  background-color: #5025a7;
   box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px 30px, rgba(0, 0, 0, 0.22) 0px 15px 12px 20px;
   display: flex;
   justify-content: center;
@@ -98,7 +99,7 @@ footer a {
 footer a:hover {
   transform: scale(1.1);
   color: #fff;
-  text-shadow: 0 0 5px rgb(0, 178, 255), 0 0 10px rgb(0, 178, 255), 0 0 15px rgb(0, 178, 255), 0 0 20px rgb(38, 104, 127), 0 0 25px rgb(38, 104, 127), 0 0 30px rgb(38, 104, 127);
+  text-shadow: 0 0 5px #7544D6, 0 0 10px #7544D6, 0 0 15px #7544D6, 0 0 20px #5025a7, 0 0 25px #5025a7, 0 0 30px #5025a7;
 }
 footer ul {
   display: flex;
@@ -114,7 +115,7 @@ footer ul li a {
 footer ul li a:hover {
   transform: scale(1.1);
   color: #fff;
-  text-shadow: 0 0 5px rgb(0, 178, 255), 0 0 10px rgb(0, 178, 255), 0 0 15px rgb(0, 178, 255), 0 0 20px rgb(38, 104, 127), 0 0 25px rgb(38, 104, 127), 0 0 30px rgb(38, 104, 127);
+  text-shadow: 0 0 5px #7544D6, 0 0 10px #7544D6, 0 0 15px #7544D6, 0 0 20px #5025a7, 0 0 25px #5025a7, 0 0 30px #5025a7;
 }
 
 .presentation {
@@ -156,7 +157,7 @@ footer ul li a:hover {
   padding-bottom: 6rem;
 }
 .presentation .buttons-container .button-presentation {
-  background-color: rgba(6, 44, 93, 0.9450980392);
+  background-color: #5025a7;
   border-radius: 100px;
   margin: 0.5rem;
   text-decoration: none;
@@ -169,7 +170,7 @@ footer ul li a:hover {
 .presentation .buttons-container .button-presentation:hover {
   transform: scale(1.1);
   color: #fff;
-  text-shadow: 0 0 5px rgb(0, 178, 255), 0 0 10px rgb(0, 178, 255), 0 0 15px rgb(0, 178, 255), 0 0 20px rgb(38, 104, 127), 0 0 25px rgb(38, 104, 127), 0 0 30px rgb(38, 104, 127);
+  text-shadow: 0 0 5px #7544D6, 0 0 10px #7544D6, 0 0 15px #7544D6, 0 0 20px #5025a7, 0 0 25px #5025a7, 0 0 30px #5025a7;
 }
 .presentation .buttons-container .button-presentation svg {
   font-size: larger;
@@ -243,6 +244,7 @@ footer ul li a:hover {
   width: 600px;
   margin: 2rem 0;
   position: relative;
+  box-shadow: rgba(50, 50, 50, 0.5) 0px 20px 30px -12px;
 }
 .projects ul li .proj-info {
   width: 100%;
@@ -282,7 +284,7 @@ footer ul li a:hover {
   margin-top: 5px;
 }
 .projects ul li .proj-info:hover {
-  box-shadow: rgba(0, 0, 0, 0.5) 0px 25px 50px -12px;
+  box-shadow: rgba(83, 83, 83, 0.5) 0px 25px 50px -12px;
 }
 .projects ul li .proj-info:hover .visit svg {
   animation: visit 0.8s;
@@ -362,20 +364,24 @@ footer ul li a:hover {
   width: 100%;
 }
 .contact form .button {
-  background-color: rgba(6, 44, 93, 0.9450980392);
+  background-color: #7544d6;
 }
-.contact form input, .contact form textarea {
-  background-color: transparent;
+.contact form input,
+.contact form textarea {
+  background-color: rgba(64, 37, 119, 0.2980392157) !important;
+  color: #dadada;
   border: none;
   border-bottom: 1px solid #000;
   padding: 8px;
   margin: 12px 8px;
 }
-.contact form input::placeholder, .contact form textarea::placeholder {
-  color: #0c0c0c;
+.contact form input::placeholder,
+.contact form textarea::placeholder {
+  color: #dadada;
   font-size: 1rem;
 }
-.contact form input:focus-visible, .contact form textarea:focus-visible {
+.contact form input:focus-visible,
+.contact form textarea:focus-visible {
   outline: none;
 }
 
@@ -443,7 +449,7 @@ main .uppercase {
     position: absolute;
     top: 3.5rem;
     left: 0;
-    background: #1e477d;
+    background: #7544d6;
     width: 100%;
     transform: translateY(-150%);
     opacity: 0;
@@ -472,7 +478,7 @@ main .uppercase {
   header .hamburger span {
     width: 30px;
     height: 2px;
-    background: #98bae6;
+    background: rgb(14, 9, 40);
     margin: 3px;
     border-radius: 2px;
     transform-origin: 5px 0px;
@@ -524,7 +530,7 @@ main .uppercase {
 
 ::-webkit-scrollbar-track-piece {
   border-radius: 2px;
-  background-color: #446898;
+  background-color: #7544D6;
   background-clip: content-box;
   border-radius: 6px;
   border: solid 4px transparent;
@@ -537,7 +543,7 @@ main .uppercase {
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: #1e477d;
+  background-color: #7544d6;
   border-radius: 6px;
   box-shadow: 0 3px 6px -2px rgba(51, 0, 51, 0.5);
 }

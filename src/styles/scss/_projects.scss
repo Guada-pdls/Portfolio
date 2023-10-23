@@ -17,6 +17,7 @@
       width: 600px;
       margin: 2rem 0;
       position: relative;
+      box-shadow: rgba(50, 50, 50, 0.5) 0px 20px 30px -12px;
       .proj-info {
         width: 100%;
         border-radius: 15px;
@@ -54,7 +55,7 @@
           }
         }
         &:hover{
-          box-shadow: rgba(0, 0, 0, .5) 0px 25px 50px -12px;
+          box-shadow: rgba(83, 83, 83, 0.5) 0px 25px 50px -12px;
           .visit{
             svg{
               animation: visit .8s;
