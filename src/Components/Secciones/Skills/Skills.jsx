@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import {
   SiHtml5,
   SiCss3,
@@ -13,13 +13,15 @@ import {
   SiTailwindcss,
   SiNodedotjs,
 } from "react-icons/si";
-import MaterialIcon from "../Habilidades/MaterialIcon";
+import MaterialIcon from "./MaterialIcon";
+import { LanguageContext } from '../../../Context/LanguageContext';
 
-const Habilidades = () => {
+const Skills = () => {
+  const { texts } = useContext(LanguageContext)
   return (
-    <section className="habilidades">
-        <div className="skills" data-aos="zoom-in-right">
-          <h4 className="titulo">Skills</h4>
+    <section className="skills">
+        <div className="learned" data-aos="zoom-in-right">
+          <h4 className="title">{texts.skillsTitle}</h4>
           <ul>
             <li>
               <SiHtml5 />
@@ -63,8 +65,8 @@ const Habilidades = () => {
             </li>
           </ul>
         </div>
-        <div className="aprendiendo" data-aos="zoom-in-left">
-          <h4 className="titulo">Capacitandome en</h4>
+        <div className="learning" data-aos="zoom-in-left">
+          <h4 className="title">{texts.learningTitle}</h4>
           <ul>
             <li>
               <SiTailwindcss />
@@ -84,4 +86,4 @@ const Habilidades = () => {
   )
 }
 
-export default Habilidades
+export default Skills

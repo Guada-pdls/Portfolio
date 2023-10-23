@@ -1,10 +1,10 @@
-.presentacion {
+.presentation {
   display: flex;
   justify-content: center;
   flex-direction: column;
   text-align: center;
   padding: 6rem 0 3rem 0;
-  .datos {
+  .data {
     font-size: large;
     padding-bottom: 2rem;
     h1 {
@@ -34,7 +34,7 @@
     display: flex;
     justify-content: center;
     padding-bottom: 6rem;
-    .button-presentacion {
+    .button-presentation {
       background-color: $dark-blue;
       border-radius: 100px;
       margin: .5rem;

@@ -42,6 +42,7 @@
     .hamburger {
       display: flex;
       flex-direction: column;
+      justify-content: center;
       cursor: pointer;
       margin: 15px;
     }
@@ -64,20 +65,20 @@
       transform: rotate(-45deg) translatex(-1px);
     }
   }
-  .habilidades {
-    .skills {
+  .skills {
+    .learned {
       ul {
         gap: 1.2rem 2.8rem;
       }
     }
   }
-  .proyectos {
+  .projects {
     ul {
       li {
         margin: 1rem 0;
         height: 60vw;
         width: 90vw;
-        .proy-info {
+        .proj-info {
           padding: 0 2rem 1rem 2rem;
           h4 {
             padding-bottom: 0.5rem;
@@ -86,14 +87,14 @@
           p {
             font-size: 0.85rem;
           }
-          .enlaces {
+          .links {
             padding-top: 0.5rem;
             a {
               font-size: 0.85rem;
             }
           }
         }
-        .proy-info {
+        .proj-info {
           padding: 0 1.2rem 0.7rem 1.2rem;
         }
         &::after {

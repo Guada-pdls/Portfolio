@@ -1,16 +1,18 @@
-import React from "react";
+import React, { useContext } from "react";
 import {
   AiOutlineEnvironment,
   AiFillGithub,
   AiFillLinkedin,
 } from "react-icons/ai";
+import { LanguageContext } from "../../../Context/LanguageContext";
 
-const Presentacion = () => {
+const Presentation = () => {
+  const { texts } = useContext(LanguageContext)
   return (
-    <section className="presentacion">
-      <div className="datos" data-aos="fade-in">
+    <section id="presentation" className="presentation">
+      <div className="data" data-aos="fade-in">
         <h1>Guadalupe Piva</h1>
-        <h2>Desarrolladora web</h2>
+        <h2>{texts.webDevText}</h2>
         <div className="ubi">
           <AiOutlineEnvironment />
           <h4>Montevideo, Uruguay</h4>
@@ -20,14 +22,14 @@ const Presentacion = () => {
         <a
           href="../CV - Guadalupe Piva.pdf"
           download="CV - Guadalupe Piva.pdf"
-          className="button-presentacion"
+          className="button-presentation"
         >
-          Descargar CV
+          {texts.downloadCvButton}
         </a>
-        <a href="" className="button-presentacion">
+        <a href="" className="button-presentation">
           <AiFillGithub />
         </a>
-        <a href="" className="button-presentacion">
+        <a href="" className="button-presentation">
           <AiFillLinkedin />
         </a>
       </div>
@@ -35,4 +37,4 @@ const Presentacion = () => {
   );
 };
 
-export default Presentacion;
+export default Presentation;

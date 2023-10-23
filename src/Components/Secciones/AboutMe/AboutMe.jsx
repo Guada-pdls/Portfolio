@@ -1,13 +1,16 @@
-import React from "react";
+import { useContext } from "react";
+import { LanguageContext } from "../../../Context/LanguageContext";
 
-const SobreMi = () => {
+const AboutMe = () => {
+  const { texts } = useContext(LanguageContext)
   return (
     <>
-      <section className="sobre-mi" id="sobre-mi" data-aos="fade-right">
-      <h4 className="titulo">Sobre mí</h4>
+      <section className="about-me" id="about-me">
+      <h4 className="title">{texts.aboutMeTitle}</h4>
         <div className="presenta">
           <p>
-            <span>Desarrolladora</span> web Frontend en constante aprendizaje. Actualmente en proceso de convertirme en Full Stack, con la meta de ser ingeniera en sistemas en un futuro próximo.
+            {texts.aboutMeText}
+            <span>Desarrolladora</span> web Frontend en proceso de convertirme en Full Stack, con la meta de ser ingeniera en sistemas en un futuro próximo. 
           </p>
           <p>
             <span>Disfruto</span> del trabajo en equipo, lo considero una
@@ -23,4 +26,4 @@ const SobreMi = () => {
   );
 };
 
-export default SobreMi;
+export default AboutMe;

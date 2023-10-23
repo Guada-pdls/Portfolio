@@ -1,14 +1,15 @@
 import { useEffect } from "react"
 import Navbar from "./Components/Navbar/Navbar"
-import Presentacion from "./Components/Secciones/Presentacion/Presentacion"
-import Habilidades from "./Components/Secciones/Habilidades/Habilidades"
-import Proyectos from "./Components/Secciones/Proyectos/Proyectos"
-import SobreMi from "./Components/Secciones/SobreMi/SobreMi"
-import Contacto from "./Components/Secciones/Contacto/Contacto"
+import Presentation from "./Components/Secciones/Presentation/Presentation"
+import Skills from "./Components/Secciones/Skills/Skills"
+import Projects from "./Components/Secciones/Projects/Projects.jsx"
+import AboutMe from "./Components/Secciones/AboutMe/AboutMe"
+import Contact from "./Components/Secciones/Contact/Contact"
 import Footer from "./Components/Footer/Footer"
 import "./styles/style.css"
 import Aos from "aos";
 import "aos/dist/aos.css"
+import { LanguageProvider } from "./Context/LanguageContext"
 
 function App() {
 
@@ -16,14 +17,16 @@ function App() {
 
   return (
     <div className="App">
-      <Navbar/>
-        <main>
-          <Presentacion/>
-          <Habilidades/>
-          <Proyectos/>
-          <SobreMi/>
-          <Contacto/>
-        </main>
+      <LanguageProvider>
+        <Navbar/>
+          <main>
+            <Presentation/>
+            <Skills/>
+            <Projects/>
+            <AboutMe/>
+            <Contact/>
+          </main>
+      </LanguageProvider>
       <Footer/>
     </div>
   )

@@ -16,12 +16,15 @@ $light: #dadada;
 * {
   margin: 0;
   padding: 0;
+  border: 0;
   box-sizing: border-box;
   font-family: "Montserrat";
 }
+
 body {
   background-color: $lighter-blue;
-  .titulo {
+
+  .title {
     font-family: "Big Shoulders Display";
     font-size: 3rem;
     font-weight: 100;
@@ -32,6 +35,7 @@ body {
     padding: 0 1.5rem;
     width: fit-content;
   }
+
   .button {
     background-color: $dark-blue;
     color: $light;
@@ -41,6 +45,7 @@ body {
     padding: 7px;
     border-radius: 30px;
     transition: 0.3s;
+
     &:hover {
       @include hovers();
     }
@@ -49,14 +54,15 @@ body {
 
 @import "./scss/header";
 @import "./scss/footer";
-@import "./scss/presentacion";
-@import "./scss/habilidades";
-@import "./scss/proyectos";
-@import "./scss/sobreMi";
-@import "./scss/contacto";
+@import "./scss/presentation";
+@import "./scss/skills";
+@import "./scss/projects";
+@import "./scss/aboutMe";
+@import "./scss/contact";
 @import "./scss/main";
 @import "./scss/media-querie-xl";
 @import "./scss/media-querie-lg";
 @import "./scss/media-querie-md";
 @import "./scss/media-querie-xs";
 @import "./scss/scrollbar";
+@import "./scss/change-language-btn"
