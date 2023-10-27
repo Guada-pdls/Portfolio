@@ -51,7 +51,7 @@ const LanguageProvider = ({ children }) => {
 
 	const savedLanguage = (JSON.stringify(localStorage.getItem('language'))).replaceAll('"', '')
 
-	let [language, setLanguage] = useState(savedLanguage ?? 'en');
+	const [language, setLanguage] = useState(savedLanguage !== 'null' ? savedLanguage : 'en');
 	const [texts, setTexts] = useState(translations[language])
 
 	const changeHandler = e =>{
