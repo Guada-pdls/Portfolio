@@ -6,12 +6,10 @@
   padding-top: 120px;
   .presenta {
     margin-top: 1rem;
-    :first-child {
-      margin-bottom: 8px;
-    }
     p {
+      margin-bottom: 8px;
       font-size: 1.1rem;
-      text-align: center;
+      text-align: left;
       width: 600px;
       font-weight: 500;
       span {

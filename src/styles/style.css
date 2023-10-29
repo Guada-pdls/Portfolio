@@ -191,7 +191,7 @@ footer ul li a:hover {
   flex-wrap: wrap;
   align-content: center;
   gap: 1.4rem 3rem;
-  max-height: 14rem;
+  max-height: 20rem;
 }
 .skills .learned ul li {
   list-style-type: none;
@@ -200,7 +200,7 @@ footer ul li a:hover {
   font-size: 1.2rem;
 }
 .skills .learned ul li svg {
-  margin-right: 5px;
+  margin-right: 8px;
 }
 .skills .learning {
   display: flex;
@@ -327,12 +327,10 @@ footer ul li a:hover {
 .about-me .presenta {
   margin-top: 1rem;
 }
-.about-me .presenta :first-child {
-  margin-bottom: 8px;
-}
 .about-me .presenta p {
+  margin-bottom: 8px;
   font-size: 1.1rem;
-  text-align: center;
+  text-align: left;
   width: 600px;
   font-weight: 500;
 }
@@ -494,7 +492,7 @@ main .uppercase {
     transform: rotate(-45deg) translatex(-1px);
   }
   .skills .learned ul {
-    gap: 1.2rem 2.8rem;
+    gap: 1.2rem 2rem;
   }
   .projects ul li {
     margin: 1rem 0;

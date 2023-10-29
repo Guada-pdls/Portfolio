@@ -12,7 +12,12 @@ import {
   SiFigma,
   SiTailwindcss,
   SiNodedotjs,
+  SiMongodb,
+  SiExpress,
+  SiSqlite,
+  SiMysql,
 } from "react-icons/si";
+import { TbSql } from "react-icons/tb"
 import MaterialIcon from "./MaterialIcon";
 import { LanguageContext } from '../../../Context/LanguageContext';
 
@@ -24,20 +29,32 @@ const Skills = () => {
           <h4 className="title">{texts.skillsTitle}</h4>
           <ul>
             <li>
-              <SiHtml5 />
-              HTML5
+              <SiNodedotjs />
+              Node JS
             </li>
             <li>
-              <SiCss3 />
-              CSS3
+              <SiReact />
+              React JS
             </li>
             <li>
               <SiJavascript />
               JavaScript
             </li>
             <li>
-              <SiReact />
-              React JS
+              <SiMongodb/>
+              MongoDB
+            </li>
+            <li>
+              <SiExpress/>
+              Express
+            </li>
+            <li>
+              <SiHtml5 />
+              HTML5
+            </li>
+            <li>
+              <SiCss3 />
+              CSS3
             </li>
             <li>
               <SiPython />
@@ -48,10 +65,6 @@ const Skills = () => {
               Sass
             </li>
             <li>
-              <SiBootstrap />
-              Bootstrap
-            </li>
-            <li>
               <SiGit />
               Git
             </li>
@@ -60,14 +73,9 @@ const Skills = () => {
               GitHub
             </li>
             <li>
-              <SiFigma />
-              Figma
+              <SiBootstrap />
+              Bootstrap
             </li>
-          </ul>
-        </div>
-        <div className="learning" data-aos="zoom-in-left">
-          <h4 className="title">{texts.learningTitle}</h4>
-          <ul>
             <li>
               <SiTailwindcss />
               Tailwind CSS
@@ -76,9 +84,18 @@ const Skills = () => {
               <MaterialIcon />
               Material UI
             </li>
+          </ul>
+        </div>
+        <div className="learning" data-aos="zoom-in-left">
+          <h4 className="title">{texts.learningTitle}</h4>
+          <ul>
             <li>
-              <SiNodedotjs />
-              Node JS
+              <TbSql />
+              SQL
+            </li>
+            <li>
+              <SiReact />
+              React Native
             </li>
           </ul>
         </div>
