@@ -4,7 +4,7 @@ const projects = [
 		title: "Cattitude | E-commerce",
 		description: {
 			es: "E-commerce de productos para gatitos, desarrollado con React JS y Firestore. También utilicé dependencias como react-icons, react-router-dom, toastify-js, entre otras.",
-			en: "Cat products e-commerce, developed with React JS and Firestore. I also used dependencies such as react-icons, react-router-dom, toastify-js, among others,"
+			en: "Cat products e-commerce, developed with React JS and Firestore. I also used dependencies such as react-icons, react-router-dom, toastify-js, among others."
 		}
 		,
 		img: "../../images/Cattitude.png",
@@ -38,7 +38,7 @@ const projects = [
 		title: "Fake Store | E-commerce",
 		description: {
 			es: "E-commerce realizado con la API FakeStore, utilizando HTML, CSS y JavaScript, además de librerías tales como EmailJS, SweetAlert, Swiper y Toastify. Su principal funcionalidad es el carrito y el modo oscuro.",
-			en: "E-commerce made with the FakeStore API, using HTML, CSS y JavaScript, besides of libraries such as EmailJS, SweetAlert, Swiper y Toastify. Its main functionality is the cart and the dark mode."
+			en: "E-commerce made with the FakeStore API, using HTML, CSS and JavaScript, besides of libraries such as EmailJS, SweetAlert, Swiper and Toastify. Its main functionality is the cart and the dark mode."
 		},
 		img: "../../images/FakeStore.jpg",
 		deploy: "https://guada-pdls.github.io/Proyecto-JS/",

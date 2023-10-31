@@ -15,7 +15,7 @@ const translations = {
 		projectsTitle: 'Projects',
 		visitProjButton: 'Visit',
 		aboutMeTitle: 'About me',
-		aboutMeText: `Full stack web developer with strong knowledge in JavaScript, Node JS, Express and MongoDB, besides technologies such as React JS, Sass and version control using GIT. /n I enjoy teamwork, I consider it an opportunity to reach significant goals and better results. I've initiative and I always strive for excellence in my work, which leads me to dedicate time and effort to the continuous review and improvement of my projects. /n	My experience extends to developing a variety of projects, including e-commerce websites, landing pages, and various web applications, some of which I have worked on collaboratively.`,
+		aboutMeText: `Full stack web developer with strong knowledge in JavaScript, Node JS, Express and MongoDB, besides technologies such as React JS, Sass and version control using GIT. /n I enjoy teamwork, I consider it an opportunity to reach significant goals and better results. I have initiative and I always strive for excellence in my work, which leads me to dedicate time and effort to the continuous review and improvement of my projects. /n	My experience extends to developing a variety of projects, including e-commerce websites, landing pages, and various web applications, some of which I have worked on collaboratively.`,
 		contactMeTitle: 'Contact me',
 		firstNameInput: 'First name',
 		lastNameInput: 'Last name',

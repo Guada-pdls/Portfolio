@@ -7,7 +7,7 @@ import {
 import { LanguageContext } from "../../../Context/LanguageContext";
 
 const Presentation = () => {
-  const { texts } = useContext(LanguageContext)
+  const { texts, language } = useContext(LanguageContext)
   return (
     <section id="presentation" className="presentation">
       <div className="data" data-aos="fade-in">
@@ -20,7 +20,7 @@ const Presentation = () => {
       </div>
       <div className="buttons-container">
         <a
-          href="../CV - Guadalupe Piva.pdf"
+          href={language === "en" ? "../EN CV.pdf" : "../ES CV.pdf"}
           download="CV - Guadalupe Piva.pdf"
           className="button-presentation"
         >
