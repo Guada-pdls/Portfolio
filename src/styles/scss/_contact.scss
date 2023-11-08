@@ -26,6 +26,10 @@
 
         .button {
             background-color: $blue;
+
+            &:hover {
+                @include shadow();
+            }
         }
 
         input,

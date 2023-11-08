@@ -33,7 +33,6 @@ body .button {
   transition: 0.3s;
 }
 body .button:hover {
-  transform: scale(1.1);
   color: #fff;
   text-shadow: 0 0 5px #7544D6, 0 0 10px #7544D6, 0 0 15px #7544D6, 0 0 20px #5025a7, 0 0 25px #5025a7, 0 0 30px #5025a7;
 }
@@ -72,7 +71,6 @@ header .nav ul li a {
   letter-spacing: 2px;
 }
 header .nav ul li:hover {
-  transform: scale(1.1);
   color: #fff;
   text-shadow: 0 0 5px #7544D6, 0 0 10px #7544D6, 0 0 15px #7544D6, 0 0 20px #5025a7, 0 0 25px #5025a7, 0 0 30px #5025a7;
 }
@@ -97,7 +95,6 @@ footer a {
   letter-spacing: 2px;
 }
 footer a:hover {
-  transform: scale(1.1);
   color: #fff;
   text-shadow: 0 0 5px #7544D6, 0 0 10px #7544D6, 0 0 15px #7544D6, 0 0 20px #5025a7, 0 0 25px #5025a7, 0 0 30px #5025a7;
 }
@@ -113,7 +110,6 @@ footer ul li a {
   transition: 0.5s;
 }
 footer ul li a:hover {
-  transform: scale(1.1);
   color: #fff;
   text-shadow: 0 0 5px #7544D6, 0 0 10px #7544D6, 0 0 15px #7544D6, 0 0 20px #5025a7, 0 0 25px #5025a7, 0 0 30px #5025a7;
 }
@@ -168,9 +164,10 @@ footer ul li a:hover {
   transition: 0.3s;
 }
 .presentation .buttons-container .button-presentation:hover {
-  transform: scale(1.1);
   color: #fff;
   text-shadow: 0 0 5px #7544D6, 0 0 10px #7544D6, 0 0 15px #7544D6, 0 0 20px #5025a7, 0 0 25px #5025a7, 0 0 30px #5025a7;
+  box-shadow: rgba(83, 83, 83, 0.5) 0px 25px 50px -12px;
+  transform: scale(1.05);
 }
 .presentation .buttons-container .button-presentation svg {
   font-size: larger;
@@ -363,6 +360,9 @@ footer ul li a:hover {
 }
 .contact form .button {
   background-color: #7544d6;
+}
+.contact form .button:hover {
+  box-shadow: rgba(83, 83, 83, 0.5) 0px 25px 50px -12px;
 }
 .contact form input,
 .contact form textarea {

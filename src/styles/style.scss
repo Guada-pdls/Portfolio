@@ -8,11 +8,14 @@ $light: #dadada;
 @import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@400&family=Montserrat:wght@300;400&family=Tilt+Neon&display=swap");
 
 @mixin hovers() {
-  transform: scale(1.1);
   color: #fff;
   text-shadow: 0 0 5px $light-blue, 0 0 10px $light-blue,
     0 0 15px $light-blue, 0 0 20px $dark-blue,
     0 0 25px $dark-blue, 0 0 30px $dark-blue;
+}
+
+@mixin shadow() {
+  box-shadow: rgba(83, 83, 83, 0.5) 0px 25px 50px -12px;
 }
 
 * {
