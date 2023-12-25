@@ -56,7 +56,7 @@ const Contact = () => {
           id="msg"
           required
         ></textarea>
-        <input type="submit" id="button" value={texts.sendButton} className="button"/>
+        <input type="submit" id="button" value={texts.sendButton.toUpperCase()} className="button"/>
       </form>
     </section>
   );

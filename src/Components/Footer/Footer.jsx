@@ -1,5 +1,5 @@
 import React from "react";
-import { AiOutlineLinkedin, AiOutlineMail, AiOutlinePhone } from "react-icons/ai";
+import { AiOutlineLinkedin, AiOutlineMail, AiOutlineWhatsApp } from "react-icons/ai";
 
 const Footer = () => {
   return (
@@ -12,7 +12,7 @@ const Footer = () => {
           <a href="mailto:guadapdls@gmail.com" target="_blank"><AiOutlineMail/></a>
         </li>
         <li>
-          <a href="https://wa.me/+59894334562" target="_blank"><AiOutlinePhone/></a>
+          <a href="https://wa.me/+59894334562" target="_blank"><AiOutlineWhatsApp/></a>
         </li>
       </ul>
     </footer>
