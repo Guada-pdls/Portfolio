@@ -19,15 +19,15 @@ const Presentation = () => {
         </div>
       </div>
       <div className="buttons-container">
+        <a href="" className="button-presentation">
+          <AiFillGithub />
+        </a>
         <a
           href={language === "en" ? "../EN CV.pdf" : "../ES CV.pdf"}
           download="CV - Guadalupe Piva.pdf"
           className="button-presentation"
         >
           {texts.downloadCvButton}
-        </a>
-        <a href="" className="button-presentation">
-          <AiFillGithub />
         </a>
         <a href="" className="button-presentation">
           <AiFillLinkedin />

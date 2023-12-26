@@ -16,6 +16,8 @@ import {
   SiExpress,
   SiSqlite,
   SiMysql,
+  SiNextdotjs,
+  SiTypescript,
 } from "react-icons/si";
 import { TbSql } from "react-icons/tb"
 import MaterialIcon from "./MaterialIcon";
@@ -96,6 +98,14 @@ const Skills = () => {
             <li>
               <SiReact />
               React Native
+            </li>
+            <li>
+              <SiNextdotjs/>
+              Next JS
+            </li>
+            <li>
+              <SiTypescript/>
+              Typescript
             </li>
           </ul>
         </div>

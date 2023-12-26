@@ -28,7 +28,7 @@
         }
 
         .button {
-            background-color: $dark-blue;
+            background-color: $grape;
 
             &:hover {
                 @include shadow();
@@ -38,12 +38,13 @@
         input,
         textarea {
             width: 100%;
-            background-color: $form-background;
+            background-color: $dark-purple;
             color: $light;
             border: none;
             border-bottom: 1px solid #000;
             padding: 8px;
             margin: 12px 0px;
+            resize: none;
 
             &::placeholder {
                 color: $light;
