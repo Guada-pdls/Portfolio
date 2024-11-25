@@ -188,7 +188,7 @@ footer ul li a:hover {
   flex-wrap: wrap;
   align-content: center;
   gap: 1.4rem 3rem;
-  max-height: 20rem;
+  max-height: 22rem;
 }
 .skills .learned ul li {
   list-style-type: none;

@@ -6,19 +6,17 @@ import {
   SiReact,
   SiPython,
   SiSass,
-  SiBootstrap,
   SiGit,
   SiGithub,
-  SiFigma,
   SiTailwindcss,
   SiNodedotjs,
   SiMongodb,
   SiExpress,
-  SiSqlite,
-  SiMysql,
   SiNextdotjs,
   SiTypescript,
+  SiPrisma,
 } from "react-icons/si";
+import { RiJavaLine } from "react-icons/ri";
 import { TbSql } from "react-icons/tb"
 import MaterialIcon from "./MaterialIcon";
 import { LanguageContext } from '../../../Context/LanguageContext';
@@ -75,10 +73,6 @@ const Skills = () => {
               GitHub
             </li>
             <li>
-              <SiBootstrap />
-              Bootstrap
-            </li>
-            <li>
               <SiTailwindcss />
               Tailwind CSS
             </li>
@@ -86,26 +80,34 @@ const Skills = () => {
               <MaterialIcon />
               Material UI
             </li>
-          </ul>
-        </div>
-        <div className="learning" data-aos="zoom-in-left">
-          <h4 className="title">{texts.learningTitle}</h4>
-          <ul>
             <li>
               <TbSql />
               SQL
-            </li>
-            <li>
-              <SiReact />
-              React Native
             </li>
             <li>
               <SiNextdotjs/>
               Next JS
             </li>
             <li>
+              <RiJavaLine/>
+              Java
+            </li>
+          </ul>
+        </div>
+        <div className="learning" data-aos="zoom-in-left">
+          <h4 className="title">{texts.learningTitle}</h4>
+          <ul>
+            <li>
+              <SiReact />
+              React Native
+            </li>
+            <li>
               <SiTypescript/>
               Typescript
+            </li>
+            <li>
+              <SiPrisma/>
+              Prisma
             </li>
           </ul>
         </div>
