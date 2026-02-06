@@ -15,6 +15,9 @@ import {
   SiNextdotjs,
   SiTypescript,
   SiPrisma,
+  SiAmazonwebservices,
+  SiDocker,
+  SiJest
 } from "react-icons/si";
 import { RiJavaLine } from "react-icons/ri";
 import { TbSql } from "react-icons/tb"
@@ -61,10 +64,6 @@ const Skills = () => {
               Python
             </li>
             <li>
-              <SiSass />
-              Sass
-            </li>
-            <li>
               <SiGit />
               Git
             </li>
@@ -92,6 +91,18 @@ const Skills = () => {
               <RiJavaLine/>
               Java
             </li>
+            <li>
+              <SiTypescript/>
+              Typescript
+            </li>
+            <li>
+              <SiPrisma/>
+              Prisma ORM
+            </li>
+            <li>
+              <SiAmazonwebservices/>
+              AWS
+            </li>
           </ul>
         </div>
         <div className="learning" data-aos="zoom-in-left">
@@ -102,12 +113,12 @@ const Skills = () => {
               React Native
             </li>
             <li>
-              <SiTypescript/>
-              Typescript
+              <SiDocker/>
+              Docker
             </li>
             <li>
-              <SiPrisma/>
-              Prisma
+              <SiJest/>
+              Jest
             </li>
           </ul>
         </div>
